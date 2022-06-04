@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleProp, ImageStyle, TextStyle, ViewStyle, FlatListProps } from "react-native";
 
-declare module "react-native-timeline-flatlist" {
+declare module "react-native-timeline-simple" {
   type Data = {
     time?: string;
     title?: string;

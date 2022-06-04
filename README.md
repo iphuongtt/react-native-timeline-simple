@@ -1,6 +1,6 @@
-# React Native Timeline Flatlist
+# React Native Timeline Simple
 
-[![npm version](https://badge.fury.io/js/react-native-timeline-flatlist.svg)](https://badge.fury.io/js/react-native-timeline-flatlist)
+
 [![Platform](https://img.shields.io/badge/react--native-0.61-blue.svg)](http://facebook.github.io/react-native/)
 
 Timeline component for React Native App work for Android and iOS
@@ -35,13 +35,13 @@ Examples in examples folder and on Expo https://expo.io/@eugnis/react-native-tim
 ## Installation
 
 ```
-npm i react-native-timeline-flatlist --save
+npm i react-native-timeline-simple --save
 ```
 
 or
 
 ```
-yarn add react-native-timeline-flatlist
+yarn add react-native-timeline-simple
 ```
 
 ## Basic Usage
@@ -49,7 +49,7 @@ yarn add react-native-timeline-flatlist
 ![image2](https://cloud.githubusercontent.com/assets/21040043/24320617/6a7494ea-116b-11e7-9cf5-12244f5eec58.png)
 
 ```jsx
-import Timeline from 'react-native-timeline-flatlist'
+import Timeline from 'react-native-timeline-simple'
 
 constructor(){
     super()
@@ -71,7 +71,7 @@ render(){
 }
 ```
 
-[see full basic example](https://github.com/Eugnis/react-native-timeline-flatlist/blob/master/examples/Example/pages/basicExample.js)
+[see full basic example](https://github.com/iphuongtt/react-native-timeline-simple/blob/master/examples/Example/pages/basicExample.js)
 
 ## Custom
 
@@ -97,7 +97,7 @@ render(){
 }
 ```
 
-[see full custom example](https://github.com/Eugnis/react-native-timeline-flatlist/blob/master/examples/Example/pages/customExample.js)
+[see full custom example](https://github.com/iphuongtt/react-native-timeline-simple/blob/master/examples/Example/pages/customExample.js)
 
 ## Circle Dot
 
@@ -114,7 +114,7 @@ render(){
 }
 ```
 
-[see full circle dot example](https://github.com/Eugnis/react-native-timeline-flatlist/blob/master/examples/Example/pages/dotExample.js)
+[see full circle dot example](https://github.com/iphuongtt/react-native-timeline-simple/blob/master/examples/Example/pages/dotExample.js)
 
 ## Icon
 
@@ -155,7 +155,7 @@ this.data = [
   }
 ```
 
-[see full icon example](https://github.com/Eugnis/react-native-timeline-flatlist/blob/master/examples/Example/pages/iconExample.js)
+[see full icon example](https://github.com/iphuongtt/react-native-timeline-simple/blob/master/examples/Example/pages/iconExample.js)
 
 ## Override Render
 
@@ -234,7 +234,7 @@ render(){
 }
 ```
 
-[see full override render example](https://github.com/Eugnis/react-native-timeline-flatlist/blob/master/examples/Example/pages/overrideRenderExample.js)
+[see full override render example](https://github.com/iphuongtt/react-native-timeline-simple/blob/master/examples/Example/pages/overrideRenderExample.js)
 
 ## Pull to refresh and load more
 
@@ -278,7 +278,7 @@ render(){
 }
 ```
 
-[see full refresh and load more example](https://github.com/Eugnis/react-native-timeline-flatlist/blob/master/examples/Example/pages/refreshLoadMoreExample.js)
+[see full refresh and load more example](https://github.com/iphuongtt/react-native-timeline-simple/blob/master/examples/Example/pages/refreshLoadMoreExample.js)
 
 ## Column Format
 
@@ -297,7 +297,7 @@ render(){
 }
 ```
 
-[see full single column right example](https://github.com/Eugnis/react-native-timeline-flatlist/blob/master/examples/Example/pages/singleRightExample.js)
+[see full single column right example](https://github.com/iphuongtt/react-native-timeline-simple/blob/master/examples/Example/pages/singleRightExample.js)
 
 ### Two Column
 
@@ -314,7 +314,7 @@ render(){
 }
 ```
 
-[see full two column example](https://github.com/Eugnis/react-native-timeline-flatlist/blob/master/examples/Example/pages/twoColumnExample.js)
+[see full two column example](https://github.com/iphuongtt/react-native-timeline-simple/blob/master/examples/Example/pages/twoColumnExample.js)
 
 ### Time container hiding
 
