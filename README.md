@@ -46,7 +46,7 @@ yarn add react-native-timeline-simple
 
 ## Basic Usage
 
-![image2](https://cloud.githubusercontent.com/assets/21040043/24320617/6a7494ea-116b-11e7-9cf5-12244f5eec58.png)
+![image](https://user-images.githubusercontent.com/5495651/171988027-75706136-328b-4cfd-ae12-cca935e4f488.png)
 
 ```jsx
 import Timeline from 'react-native-timeline-simple'
@@ -54,19 +54,52 @@ import Timeline from 'react-native-timeline-simple'
 constructor(){
     super()
     this.data = [
-      {time: '09:00', title: 'Event 1', description: 'Event 1 Description'},
-      {time: '10:45', title: 'Event 2', description: 'Event 2 Description'},
-      {time: '12:00', title: 'Event 3', description: 'Event 3 Description'},
-      {time: '14:00', title: 'Event 4', description: 'Event 4 Description'},
-      {time: '16:30', title: 'Event 5', description: 'Event 5 Description'}
+      {title: 'Event 1: ', description: 'Event 1 Description'},
+      {title: 'Event 2: ', description: 'Event 2 Description'},
+      {title: 'Event 3: ', description: 'Event 3 Description'},
+      {title: 'Event 4: ', description: 'Event 4 Description'},
+      {title: 'Event 5: ', description: 'Event 5 Description'},
     ]
   }
 
 render(){
     return(
         <Timeline
-          data={this.data}
-        />
+            data={this.data}
+            showTime={false}
+            circleSize={10}
+            dotSize={8}
+            circleColor="rgba(0, 122, 255, 1)"
+            lineColor="rgba(0, 122, 255, 1)"
+            lineWidth={1}
+            style={{marginTop: 15}}
+            descriptionStyle={{
+              fontFamily: fonts.text,
+              fontSize: 15,
+              lineHeight: 20,
+              color: 'rgba(0, 0, 0, 0.8)',
+              marginTop: 0,
+              paddingLeft: 5,
+            }}
+            isUsingFlatlist={false}
+            innerCircle={'dot'}
+            columnFormat="single-column-left"
+            eventContainerStyle={{
+              marginLeft: 5,
+              paddingLeft: 11,
+            }}
+            eventDetailStyle={{
+              paddingTop: 0,
+              paddingBottom: 20,
+            }}
+            detailContainerStyle={{
+              marginTop: -5,
+            }}
+            listViewContainerStyle={{
+              paddingTop: 15,
+            }}
+            displayInline={true}
+          />
     )
 }
 ```
